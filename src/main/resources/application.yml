@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  data:
+    mongodb:
+      auto-index-creation: true
+      username: adm
+      password: 123
+      authentication-database: admin
+      database: mongoxml
+      host: localhost
+      uri: mongodb://adm:123@localhost:27017
+      port: 27017
