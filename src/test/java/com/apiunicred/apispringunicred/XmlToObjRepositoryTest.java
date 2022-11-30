@@ -11,9 +11,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.Optional;
 
 import static com.mongodb.internal.connection.tlschannel.util.Util.assertTrue;
-import static org.assertj.core.api.Fail.fail;
-import static org.junit.jupiter.api.Assertions.assertSame;
-import static org.skyscreamer.jsonassert.JSONAssert.assertEquals;
 
 @SpringBootTest(classes= {ApiSpringUnicredApplication.class})
 public class XmlToObjRepositoryTest {

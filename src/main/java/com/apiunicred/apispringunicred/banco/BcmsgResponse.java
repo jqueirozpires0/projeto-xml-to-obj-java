@@ -1,10 +1,7 @@
 package com.apiunicred.apispringunicred.banco;
 
-import com.apiunicred.apispringunicred.modelo.Grupo_Seq;
 import lombok.*;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.Column;
 
 
 @Data

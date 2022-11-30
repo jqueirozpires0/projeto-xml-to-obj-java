@@ -1,16 +1,10 @@
 package com.apiunicred.apispringunicred.banco;
 
-import com.apiunicred.apispringunicred.modelo.Grupo_SLC0001_Liquid;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
 import java.util.Date;
 @Getter
 @Setter

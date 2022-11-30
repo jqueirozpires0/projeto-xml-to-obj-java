@@ -4,7 +4,6 @@ import com.apiunicred.apispringunicred.banco.*;
 import com.apiunicred.apispringunicred.modelo.Root;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.NoArgsConstructor;
 import org.json.JSONObject;
 import org.json.XML;
 
