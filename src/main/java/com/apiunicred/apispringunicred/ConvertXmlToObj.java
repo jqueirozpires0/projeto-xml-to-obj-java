@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 
 public class ConvertXmlToObj {
     public DocResponse returnObj() {
-        String caminho = "src/arquivoXML/SLC0001-modelo.xml";
+        String caminho = "src/arquivoXML/modelo.xml";
         Path path = Paths.get(caminho);
         try {
             String content = Files.readString(path);
